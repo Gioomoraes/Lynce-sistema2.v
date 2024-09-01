@@ -1,0 +1,68 @@
+.planos__container h1 {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #000000;
+    margin-top: 80px;
+}
+
+.planos {
+    display: flex;
+    gap: 100px;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+
+
+.benef {
+    width: 310px;
+    margin-left: -24px;
+    margin-top: -20px;
+}
+
+
+.risco {
+    text-decoration: line-through;
+    color: #0000004a;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+
+
+.contratar {
+    display: flex;
+    border-color: #000000;
+    border-width: 1px;
+    background-color: transparent;
+    padding: 3px 30px;
+    align-items: center;
+    border-radius: 10px;
+    gap: 10px;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.contratar a {
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+}
+
+.seta-contratar {
+    color: #000000;
+    width: 25px;
+}
+
+
+
+.risco {
+    text-decoration: line-through;
+    color: #0000004a;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+
+

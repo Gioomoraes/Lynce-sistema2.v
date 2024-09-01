@@ -1,0 +1,65 @@
+.textin {
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+
+.footer {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 20px 0;
+}
+
+.rodape__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-logo img {
+  max-width: 150px;
+}
+
+.footer-social {
+  margin-top: 10px;
+}
+
+.footer-social .social-icon {
+  text-decoration: none;
+  color: #000000;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.footer-links {
+  display: flex;
+}
+
+.footer-links nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links nav ul li {
+  font-size: 16px;
+}
+
+.footer-links nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-links nav ul li a:hover {
+  text-decoration: underline;
+}

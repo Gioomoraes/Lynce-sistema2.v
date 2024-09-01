@@ -1,0 +1,58 @@
+.bb .nav__logo-img {
+    width: 160px !important;
+    margin-left: 85px !important;
+    margin-top: -10px !important;
+  }
+  
+.bb {
+    max-width: var(--max-width);
+    margin: auto;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 0 6px 8px -4px rgba(0, 0, 0, 0.3);
+}
+
+.nav_links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.link a {
+    position: relative;
+    padding-bottom: 0.75rem;
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.link a:hover {
+    color: #fd7702;
+}
+
+.link a::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #fd7702;
+    transition: 0.3s;
+}
+
+.link a:hover::after {
+    width: 50%;
+}
+
+
+
+.user {
+    width: 20px;
+    margin-top: 2px;
+    margin-left: 3px;
+}

@@ -1,0 +1,13 @@
+/* Arquivo de variáveis de cores */
+
+:root {
+    --primary-color: #ffffff;
+    --primary-color-light: #000000;
+    --primary-color-extra-light: #c7c7c7;
+    --secondary-color: #fd841f;
+    --secondary-color-dark: #fd841f;
+    --neutral-color: #002347;
+    --text-light: #d1d5db;
+    --white: #ffffff;
+    --max-width: 1300px;
+}

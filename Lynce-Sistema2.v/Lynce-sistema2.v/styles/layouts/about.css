@@ -1,0 +1,133 @@
+
+.text__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.about__container {
+  background-color: #fd7702;
+  margin-top: -130px;
+}
+
+.about__grid {
+  display: flex;
+  gap: 60px;
+}
+
+.img__grid {
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.large-image {
+  flex: 2;
+  margin-left: 48px;
+  margin-top: 58px;
+}
+
+.large-image img {
+  width: 310px;
+  height: auto;
+}
+
+.small-images {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.small-images img {
+  width: 200px;
+  height: auto;
+  margin-top: 65px;
+}
+
+.text__grid {
+  color: #ffffff;
+  margin-top: 69px;
+}
+
+.text__grid h4 {
+  font-size: 50px;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.text__grid p {
+  font-family: "Poppins", sans-serif;
+  margin-top: 20px;
+  font-size: 15px;
+  text-align: left;
+}
+
+.time__grid {
+  margin-top: 100px;
+}
+
+.h1__time {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 50px;
+}
+
+.imgs__time {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 30px;
+  width: 100px;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+.imgs__time h1,
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.imgs__time h1 {
+  margin-top: 15px;
+}
+
+.text__empresa {
+  display: flex;
+  margin-top: 200px;
+}
+
+.mini__text {
+  font-size: 50px;
+  text-align: left;
+  font-family: "Bricolage Grotesque", sans-serif;
+  color: #ffffff;
+  margin-left: 50px;
+}
+
+.img__text {
+  display: flex;
+  gap: 30px;
+}
+
+.img__010203 {
+  margin-left: 150px;
+}
+
+.text__010203 {
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  font-size: 15px;
+  margin-right: 60px;
+}
+
+.text__010203 p {
+  text-align: left;
+}
+
+.text__010203 span {
+  font-weight: bold;
+}
+

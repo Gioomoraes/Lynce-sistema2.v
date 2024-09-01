@@ -1,0 +1,24 @@
+/* Importando variáveis primeiro */
+@import url('base/variables.css');
+
+/* Importando estilos base */
+@import url('base/reset.css');
+@import url('base/typography.css');
+@import url('base/global.css');
+
+/* Importando estilos de componentes */
+@import url('components/button.css');
+@import url('components/card.css');
+
+
+/* Importando estilos de layout */
+@import url('layouts/header.css');
+
+@import url('layouts/home.css');
+@import url('layouts/about.css');
+@import url('layouts/tools.css');
+@import url('layouts/plans.css');
+@import url('layouts/contact.css');
+
+@import url('layouts/footer.css');
+
